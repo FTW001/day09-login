@@ -1,0 +1,23 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568711611093" stop="1568711611093">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1568711611093" status="broken" stop="1568711611093">
+      <name>test_address</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>import file mismatch:
+imported module 'test_address' has this __file__ attribute:
+  F:\PythonItem\Appium\bj14\day09-login\scripts\test_address.py
+which is not the same as the test file we want to collect:
+  C:\Users\hasee\Desktop\day09-login\scripts\test_address.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
